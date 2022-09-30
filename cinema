@@ -1,0 +1,18 @@
+<H1>Cinema</H1>
+    Digite seu sexo[m/f]: <input type="text" id="sexo">
+    Digite sua idade: <input type="text" id="idade">
+ 
+    <script>
+        function cinema() {
+            var sexo = document.getElementById("sexo").innerHTML;
+            var idade = parseInt(document.getElementById("idade").value);
+            if (sexo == "m" && idade <17) {
+                alert("O igresso é R$7,00");}
+            else if (sexo == "f" && idade < 17) {
+                alert("O igresso é R$5,00");}
+            else {
+                alert("O igresso é R$10,00");}
+        }
+    </script>
+    <button type="button" value="calcular()">Calcular</button>
+    <div id="cinema()"></div>
