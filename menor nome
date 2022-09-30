@@ -1,0 +1,30 @@
+//    String n1, n2, n3, n4, n5, menor;
+//    Scanner teclado = new Scanner(System.in);
+//    System.out.println("Digite um nome[5]: ");
+//    n1 = teclado.nextLine();
+//
+//    System.out.println("Digite um nome[4]: ");
+//    n2 = teclado.nextLine();
+//
+//    System.out.println("Digite um nome[3]: ");
+//    n3 = teclado.nextLine();
+//
+//    System.out.println("Digite um nome[2]: ");
+//    n4 = teclado.nextLine();
+//
+//    System.out.println("Digite um nome[1]: ");
+//    n5 = teclado.nextLine();
+//
+//    if (n1.compareTo(n2) < 0) {menor = n1;}
+//    else {menor = n2;}
+//
+//    if (menor.compareTo(n3)< 0) {}
+//    else {menor = n3;}
+//
+//    if (menor.compareTo(n4)< 0) {}
+//    else {menor = n4;}
+//
+//    if (menor.compareTo(n5)< 0) {}
+//    else {menor = n5;}
+//
+//    System.out.println("O nome mais próximo de A é: " + menor);
