@@ -1,10 +1,23 @@
-- 👋 Hi, I’m @JavaPedro
-- 👀 I’m interested in learn to code.
-- 🌱 I’m currently learning Java, php, javascript and mySQL.
-- 💞️ I’m looking to collaborate on anything.
-- 📫 How to reach me ...
+Double peso, altura, imc;
+    Scanner teclado = new Scanner(System.in);
+    System.out.println("Digite seu peso em kg: ");
+    peso = teclado.nextDouble();
 
-<!---
-JavaPedro/JavaPedro is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+        System.out.println("Digite sua altura em metros: ");
+        altura = teclado.nextDouble();
+    imc = peso/(altura*altura);
+        if (imc<=18.5) {
+          System.out.println("Você está abaixo do peso!");
+            }
+       else if (imc<=24.9 & imc>=18.5) {
+           System.out.println("Você está normal! ");
+        }
+        else if (imc>=25 & imc<=29.9) {
+           System.out.println("Você está com sobrepeso! ");
+        }
+        else if (imc>=30 & imc<=34.9) {
+            System.out.println("Você está obeso! Procure ajuda.");
+       }
+        else {
+            System.out.println("Quadro de risco, obesidade mórbida. Vá a um médico imediatamente!");
+       }
