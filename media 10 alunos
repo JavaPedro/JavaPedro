@@ -1,0 +1,14 @@
+	int aluno;
+	Double n1, n2, n3, media;
+	Scanner teclado = new Scanner(System.in);
+	
+	for(aluno=1; aluno <=10; aluno++) {
+		System.out.println("Digite a primeira nota:");
+		n1 = teclado.nextDouble();
+		System.out.println("Digite a segunda nota:");
+		n2 = teclado.nextDouble();
+		System.out.println("Digite a terceira nota:");
+		n3 = teclado.nextDouble();
+			media = (n1+n2+n3)/3;
+			System.out.println(String.format("A média do Aluno é %.1f ", media));
+	}
